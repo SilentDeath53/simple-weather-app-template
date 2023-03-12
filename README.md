@@ -12,3 +12,4 @@ A guide on how to make a simple weather app.
 5- Test the app: Test the app by entering different locations.
 
 # ALL RIGHTS RESERVED BY Silent Death_53
+Note: I wrote .html and .css files to give you an idea, but these need to be edited and added and rewritten according to your needs.
