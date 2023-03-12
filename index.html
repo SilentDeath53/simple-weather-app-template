@@ -72,30 +72,19 @@
       }
     </style>
   </head>
-  <body>
-    <div class="container">
-      <h1 class="location"></h1>
-      <img class="weather-icon" src="" alt="">
-      <h2 class="weather-desc"></h2>
-      <div class="temp"></div>
-      <div class="forecast">
-        <div class="forecast-item">
-          <h3></h3>
-          <img src="" alt="">
-          <p></p>
-        </div>
-        <div class="forecast-item">
-          <h3></h3>
-          <img src="" alt="">
-          <p></p>
-        </div>
-        <div class="forecast-item">
-          <h3></h3>
-          <img src="" alt="">
-          <p></p>
-        </div>
+<body>
+  <div class="weather-container">
+    <h1>Weather App</h1>
+    <div class="weather-data">
+      <div class="temperature">
+        <span id="temperature"></span>
+      </div>
+      <div class="description">
+        <span id="description"></span>
+        <img id="icon" src="" alt="">
       </div>
     </div>
-    <script src="weather.js"></script>
-  </body>
+  </div>
+  <script src="weather.js"></script>
+</body>
 </html>
