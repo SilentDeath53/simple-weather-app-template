@@ -3,85 +3,48 @@
   <head>
     <meta charset="UTF-8">
     <title>Weather App</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        font-size: 1rem;
-        line-height: 1.5;
-        margin: 0;
-        padding: 0;
-      }
-      .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-      }
-      .location {
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
-      }
-      .weather-icon {
-        width: 6rem;
-        margin-bottom: 1rem;
-      }
-      .weather-desc {
-        font-size: 1.5rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
-      }
-      .temp {
-        font-size: 3rem;
-        font-weight: bold;
-      }
-      .temp span {
-        font-size: 2rem;
-        font-weight: normal;
-      }
-      .forecast {
-        display: flex;
-        justify-content: space-between;
-        margin-top: 2rem;
-      }
-      .forecast-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 10rem;
-        padding: 1rem;
-        background-color: #f5f5f5;
-        border-radius: 0.5rem;
-      }
-      .forecast-item h3 {
-        font-size: 1.5rem;
-        font-weight: bold;
-        margin-bottom: 1rem;
-      }
-      .forecast-item img {
-        width: 4rem;
-        margin-bottom: 0.5rem;
-      }
-      .forecast-item p {
-        font-size: 1.25rem;
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-      }
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
 <body>
-  <div class="weather-container">
+  <div class="container">
     <h1>Weather App</h1>
     <div class="weather-data">
-      <div class="temperature">
+      <div class="temp">
         <span id="temperature"></span>
       </div>
-      <div class="description">
+      <div class="location">
+        <span id="location"></span>
+      </div>
+      <div class="weather-desc">
         <span id="description"></span>
         <img id="icon" src="" alt="">
+      </div>
+      <div class="forecast">
+        <div class="forecast-item">
+          <h3 id="day-1"></h3>
+          <img id="icon-1" src="" alt="">
+          <p id="temp-1"></p>
+        </div>
+        <div class="forecast-item">
+          <h3 id="day-2"></h3>
+          <img id="icon-2" src="" alt="">
+          <p id="temp-2"></p>
+        </div>
+        <div class="forecast-item">
+          <h3 id="day-3"></h3>
+          <img id="icon-3" src="" alt="">
+          <p id="temp-3"></p>
+        </div>
+        <div class="forecast-item">
+          <h3 id="day-4"></h3>
+          <img id="icon-4" src="" alt="">
+          <p id="temp-4"></p>
+        </div>
+        <div class="forecast-item">
+          <h3 id="day-5"></h3>
+          <img id="icon-5" src="" alt="">
+          <p id="temp-5"></p>
+        </div>
       </div>
     </div>
   </div>
